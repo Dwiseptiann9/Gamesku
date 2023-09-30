@@ -1,0 +1,482 @@
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#hero h1{
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+
+#hero h5{
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+#hero .wrapBoxInfo{
+    bottom: 10%;
+}
+
+#hero .boxInfo{
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#hero .boxInfo h3{
+    font-weight: 700;
+}
+
+#latestGames{
+    height: auto;
+    padding: 0px 100px;
+}
+
+#latestGames .title{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#latestGames .popularGames{
+    height: auto;
+    width: 32%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#latestGames .popularGames:hover{
+    width: 33%;
+}
+
+#latestGames img{
+    filter: brightness(80%);
+}
+
+#latestGames .description{
+    height: 100%;
+    padding: 5% 5%;
+}
+
+#latestGames .gameName{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#allGames{
+    height: auto;
+    padding: 0px 100px;
+}
+
+#allGames .title{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#allGames .wrapAllGames{
+    height: auto;
+    padding: 30px 30px;
+}
+
+#allGames .wrapInput{
+    width: 70%;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.179);
+}
+
+#allGames .icon{
+    color: rgba(255, 255, 255, 0.823);
+    width: 7%;
+    font-size: 20px;
+}
+
+#allGames input{
+    width: 93%;
+    height: 100%;
+    color: white;
+    background-color: transparent;
+}
+
+#allGames input:focus{
+    outline: none !important;
+}
+
+
+#allGames .loading{
+    padding: 100px 0px;
+}
+
+#allGames .row{
+    padding: 40px 0px !important;
+}
+
+#allGames .boxGame{
+    height: auto;
+    width: 100%;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+
+#allGames .boxGame .picture{
+    filter: brightness(75%);
+    height: 200px;
+}
+
+#allGames .boxGame .description{
+    height: auto;
+    padding: 10px 20px;
+}
+
+#allGames .boxGame .description h1{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#allGames .boxGame:hover{
+    transform: scale(1.03);
+}
+
+#allGames .titleGame{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#allGames .pagination button{
+    padding: 7px 30px;
+}
+
+#footer{
+    margin-top: 60px;
+    padding: 30px 0px;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+    #hero{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #latestGames .title{
+        margin-top: 30px;
+    }
+
+    #latestGames .popularGames{
+        width: 32%;
+    }
+
+    #allGames .title{
+        margin-top: 30px;
+    }
+
+    #allGames .wrapAllGames{
+        padding: 20px 5px;
+    }
+
+    #allGames .wrapInput{
+        height: 30px;
+    }
+    
+    #allGames .icon{
+        width: 15%;
+    }
+
+    #latestGames .gameName{
+        font-size: 16px;
+    }
+
+    #latestGames .publisher{
+        font-size: 13px;
+    }
+
+    #latestGames .release_date{
+        font-size: 11px;
+        font-weight: 700;
+    }
+
+    #allGames .boxGame .picture{
+        filter: brightness(75%);
+        height: 100px;
+    }
+    
+    #allGames .boxGame .description{
+        height: auto;
+        padding: 6px 4px;
+    }
+    
+    #allGames .boxGame .description h1{
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    #allGames .boxGame .description div{
+        font-size: 12px;
+    }
+    
+    #allGames .boxGame:hover{
+        transform: scale(1.03);
+    }
+    
+    #allGames .titleGame{
+        font-size: 18px;
+        font-weight: 700;
+    }
+    
+    #allGames .pagination button{
+        padding: 2px 15px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    #hero{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40vh;
+    }
+
+    #hero .wrapBoxInfo{
+        bottom: -18%;
+    }
+
+    #hero h1{
+        font-size: 40px;
+    }
+
+    #hero h5{
+        font-size: 15px;
+        margin-top: -10px;
+    }
+    
+    #hero .boxInfo{
+        width: 28%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    #hero .boxInfo h3{
+        font-size: 15px;
+    }
+
+    #hero .boxInfo p{
+        font-size: 13px;
+    }
+
+    #latestGames{
+        padding: 0px 0px;
+    }
+
+    #latestGames .title{
+        margin: 0px 5%;
+        margin-bottom: 2%;
+        margin-top: 21%;
+        font-size: 18px;
+    }
+
+    #latestGames .popularGames{
+        width: 30%;
+    }
+
+    #latestGames .popularGames:hover{
+        width: 30%;
+    }
+    
+    #latestGames .description{
+        padding: 5% 7%;
+    }
+
+    #latestGames .gameName{
+        font-size: 13px;
+        font-weight: 700;
+    }
+
+    #latestGames .publisher{
+        font-size: 10px;
+        font-weight: 700;
+    }
+
+    #latestGames .release_date{
+        font-size: 10px;
+        font-weight: 700;
+    }
+
+    #allGames{
+        padding: 0px 0px;
+    }
+
+    #allGames .title{
+        margin: 0px 5%;
+        margin-bottom: 2%;
+        margin-top: 6%;
+        font-size: 18px;
+    }
+
+    #allGames .wrapAllGames{
+        padding: 20px 10px;
+    }
+
+    #allGames .wrapInput{
+        width: 60%;
+        height: 35px;
+    }
+    
+    #allGames .icon{
+        width: 10%;
+        font-size: 15px;
+    }
+    
+    #allGames input{
+        width: 80%;
+        font-size: 15px;
+        margin-left: 2px;
+    }
+
+    #allGames .loading span{
+        font-size: 15px !important;
+    }
+
+    #allGames .row{
+        padding: 30px 0px !important;
+    }
+
+    #allGames .col{
+        padding: 0px !important;
+    }
+    
+    #allGames .boxGame{
+        height: auto;
+        width: 95%;
+        margin-bottom: 10px;
+        transition: 0.5s;
+    }
+    
+    #allGames .boxGame .picture{
+        filter: brightness(75%);
+        height: 70px;
+    }
+    
+    #allGames .boxGame .description{
+        height: auto;
+        padding: 6px 6px;
+    }
+    
+    #allGames .boxGame .description h1{
+        font-size: 13px;
+        font-weight: 700;
+        margin-bottom: -0.5%;
+    }
+
+    #allGames .boxGame .description div{
+        font-size: 10px;
+    }
+    
+    #allGames .boxGame:hover{
+        transform: scale(1.03);
+    }
+    
+    #allGames .titleGame{
+        font-size: 18px;
+        font-weight: 700;
+    }
+    
+    #allGames .pagination button{
+        padding: 2px 15px;
+    }
+
+    #footer{
+        margin-top: 40px;
+        padding: 20px 0px;
+    }
+
+    
+    #footer div{
+        font-size: 11px;
+    }
+
+}
+
+/* galaxy fold */
+@media only screen and (max-width: 280px){
+    #hero h5{
+        font-size: 12px;
+    }
+
+    #hero .boxInfo h3{
+        font-size: 11px;
+    }
+
+    #hero .boxInfo p{
+        font-size: 8px;
+    }
+
+    #latestGames .title{
+        margin-bottom: 2%;
+        font-size: 12px;
+    }
+
+    #latestGames .description{
+        padding: 5% 4%;
+    }
+
+    #latestGames .gameName{
+        font-size: 10px;
+        font-weight: 700;
+    }
+
+    #latestGames .publisher{
+        font-size: 9px;
+        font-weight: 700;
+    }
+
+    #latestGames .release_date{
+        font-size: 8px;
+        font-weight: 700;
+        margin-left: 2px;
+    }
+
+    #allGames .wrapInput{
+        width: 60%;
+        height: 28px;
+    }
+    
+    #allGames .icon{
+        width: 10%;
+        font-size: 15px;
+    }
+    
+    #allGames input{
+        width: 80%;
+        margin-left: 2px;
+    }
+
+    #allGames .boxGame .picture{
+        height: 50px;
+    }
+
+    #allGames .boxGame .description h1{
+        font-size: 10px;
+        font-weight: 700;
+    }
+
+    #allGames .boxGame .description div{
+        font-size: 8px;
+    }
+
+    #allGames .row{
+        padding: 20px 0px !important;
+    }
+
+    #footer{
+        margin-top: 25px;
+        padding: 10px 0px;
+    }
+
+    #footer div{
+        font-size: 10px;
+    }
+}

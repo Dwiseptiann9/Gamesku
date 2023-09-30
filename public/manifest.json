@@ -1,0 +1,25 @@
+{
+  "short_name": "Download games",
+  "name": "Website rekomendasi dan donload games",
+  "icons": [
+    {
+      "src": "https://res.cloudinary.com/dld4k3hlf/image/upload/v1691222172/online-game_6143866_srsibi.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "https://res.cloudinary.com/dld4k3hlf/image/upload/v1691222172/online-game_6143866_srsibi.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://res.cloudinary.com/dld4k3hlf/image/upload/v1691222172/online-game_6143866_srsibi.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#171717"
+}
