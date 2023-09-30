@@ -152,7 +152,7 @@ const Hero = () => {
                     <b style={{fontFamily: "'Berkshire Swash', cursive"}}>Gamesku</b>
                   </h1>
                   <h5 data-aos="fade-down" data-aos-delay="50" style={{fontWeight: '400'}} className='text-light text-opacity-75'>
-                    Rekomendasi Game-game Populer
+                    Rekomendasi Game Populer
                   </h5>
                   <h5 data-aos="fade-down" data-aos-delay="100" style={{fontWeight: '400'}} className='text-light text-opacity-75'>
                     Anda bisa Download Game-game tersebut secara gratis
